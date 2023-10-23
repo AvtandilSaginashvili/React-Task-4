@@ -15,13 +15,15 @@ class Array extends React.Component {
 
     render() {
         return (
-
+            <table>
+                <thead className='thead2'><tr><td className='td1'>ID</td><td className='td1'>Names</td></tr></thead>
             <>
-            
             {
-                this.state.names.map((item, index)=> <table><thead><tr><th>ID</th><th>Names</th></tr></thead><tbody><tr><td>{index}</td><td>{item}</td></tr></tbody></table>)
+                this.state.names.map((item, index)=><tbody><tr><td>{index}</td><td>{item}</td></tr></tbody>)
             }
             </>
+
+            </table>
 
         )
     }

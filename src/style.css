@@ -8,5 +8,10 @@ body {
 }
 
 table {
+    background-color: lightgray;
     border: 1px solid #000;
+}
+.td1 {
+    border-bottom: 1px solid #000;
+    font-weight: 700;
 }
